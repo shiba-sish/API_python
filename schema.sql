@@ -1,0 +1,1 @@
+create table if not exists members(id integer primary key autoincrement, name varchar(100)not null, email text not null, designation text not null );
